@@ -4,6 +4,7 @@ let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 5;
 
 function exibirTextoNaTela(tag, texto) {
+  // testando
   let campo = document.querySelector(tag);
   campo.innerHTML = texto;
   responsiveVoice.speak(texto, "Brazilian Portuguese Female", { rate: 1.2 });
